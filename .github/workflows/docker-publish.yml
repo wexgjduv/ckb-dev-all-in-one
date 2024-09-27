@@ -27,7 +27,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: dylanweb3/ckb-dev-all-in-one:${{ github.ref }}  # 使用 Git 标签作为版本
+          tags: dylanweb3/ckb-dev-all-in-one:${{ github.ref_name }}  # 使用 Git 标签作为版本
 
 
 # name: Build and Push Docker Image
